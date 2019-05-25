@@ -1,0 +1,92 @@
+
+header{
+	background-color: black;
+	width: 100%;
+	height: 100px;
+}
+
+.heading{
+	font-size: 50px;
+	color: white;
+	height: 90px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	margin: 25px;
+}
+
+.main{
+	background-color: red;
+	height: 600px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxg03SlUQdnjMLl6tHWOBMdNLZQN4EirbOyLC1GN44wh67Q3e-2A);
+	background-size: cover;
+}
+
+.detailing{
+	background-color: yellow;
+	height: 270px;
+}
+
+.textview1,.textview2,.textview3,.button{
+	padding-top: 40px;
+	padding-left: 50px;
+	margin: 0px 50px 50px 50px;
+	height: 30px;
+	text-align: center;
+	opacity: 1;
+}
+
+.button{
+	font-size: 50px;
+	cursor: pointer;
+	border: none;
+}
+
+.button:hover{
+	background-color: green;
+}
+
+.forme p{
+	font-size: 40px;
+	padding: 10px 20px 10px 40px;
+	color: white;
+	opacity: 1;
+	color: white;
+}
+
+.forme li{
+	float: left;
+	list-style: none;
+}
+
+body{
+	background-color: blue;
+}
+
+.resl{
+	font-size: 50px;
+	text-align: center;
+	opacity: 1;
+	color: black;
+	padding: 80px 10px 10px 10px;
+	margin: 0px 10px 10px 10px;
+}
+
+.tpage .button{
+	font-size: 30px;
+	padding: 10px 10px;
+	margin: 0px 10px 10px 10px;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.tpage .button:hover{
+	background-color: green;
+}
+
+.tpage p{
+	font-size: 40px;
+	padding: 10px 20px 10px 40px;
+	color: white;
+	opacity: 1;
+	color: white;
+}
