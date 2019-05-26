@@ -15,11 +15,23 @@ header{
 
 .main{
 	background-color: red;
+<<<<<<< HEAD
 	height: 500px;
+=======
+	height: 600px;
+>>>>>>> ffd1b3bd56c2458b6d624059b1d51646b2427743
 	background-image: url("https://si.wsj.net/public/resources/images/BN-XP616_3pjLu_OR_20180223170153.jpg?width=620&height=413");
 	background-size: cover;
 }
 
+<<<<<<< HEAD
+=======
+.detailing{
+	background-color: white;
+	height: 270px;
+}
+
+>>>>>>> ffd1b3bd56c2458b6d624059b1d51646b2427743
 .textview1,.textview2,.textview3{
 	padding-top: 40px;
 	padding-left: 50px;
@@ -34,6 +46,10 @@ header{
 .conv{
 	font-size: 30px;
 	cursor: pointer;
+<<<<<<< HEAD
+=======
+	border: none;
+>>>>>>> ffd1b3bd56c2458b6d624059b1d51646b2427743
 	border-radius: 5px;
 	padding: 10px 10px;
 	margin: 10px 10px 10px 10px;
@@ -91,11 +107,14 @@ body{
 	padding: 10px 20px 0px 40px;
 	color: white;
 	opacity: 1;
+<<<<<<< HEAD
 	font-weight: bold;
 }
 
 .container1{
 	height: 300px;
+=======
+>>>>>>> ffd1b3bd56c2458b6d624059b1d51646b2427743
 }
 
 .container2 p{
