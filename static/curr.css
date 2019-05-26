@@ -15,16 +15,23 @@ header{
 
 .main{
 	background-color: red;
+<<<<<<< HEAD
+	height: 500px;
+=======
 	height: 600px;
+>>>>>>> ffd1b3bd56c2458b6d624059b1d51646b2427743
 	background-image: url("https://si.wsj.net/public/resources/images/BN-XP616_3pjLu_OR_20180223170153.jpg?width=620&height=413");
 	background-size: cover;
 }
 
+<<<<<<< HEAD
+=======
 .detailing{
 	background-color: white;
 	height: 270px;
 }
 
+>>>>>>> ffd1b3bd56c2458b6d624059b1d51646b2427743
 .textview1,.textview2,.textview3{
 	padding-top: 40px;
 	padding-left: 50px;
@@ -32,12 +39,17 @@ header{
 	height: 30px;
 	text-align: center;
 	opacity: 1;
+	font-size: 15px;
+	color: grey;
 }
 
 .conv{
 	font-size: 30px;
 	cursor: pointer;
+<<<<<<< HEAD
+=======
 	border: none;
+>>>>>>> ffd1b3bd56c2458b6d624059b1d51646b2427743
 	border-radius: 5px;
 	padding: 10px 10px;
 	margin: 10px 10px 10px 10px;
@@ -54,6 +66,7 @@ header{
 	color: white;
 	opacity: 1;
 	color: white;
+	font-weight: bold;
 }
 
 .forme li{
@@ -67,6 +80,7 @@ body{
 
 .resl{
 	font-size: 50px;
+	font-weight: bold;
 	text-align: center;
 	opacity: 1;
 	color: black;
@@ -93,4 +107,78 @@ body{
 	padding: 10px 20px 0px 40px;
 	color: white;
 	opacity: 1;
+<<<<<<< HEAD
+	font-weight: bold;
+}
+
+.container1{
+	height: 300px;
+=======
+>>>>>>> ffd1b3bd56c2458b6d624059b1d51646b2427743
+}
+
+.container2 p{
+	font-size: 35px;
+	text-align: center;
+	font-weight: normal;
+	font-style: italic;
+	color: #ec3408;
+	opacity: 1;
+}
+
+.detailing{
+	background-color: #AFEEEE;
+	height: 500px;
+}
+
+.f1 h2{
+	font-size: 30px;
+	padding-top: 30px;
+	padding-left: 30px;
+	margin: 0px 10px 0px 20px;
+	font-weight: bold;
+}
+
+.t1{
+	font-size: 20px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.t2{
+	font-size: 20px;
+	text-align: center;
+	font-weight: normal;
+	font-style: italic;
+}
+.t3{
+	font-size: 30px;
+	padding-top: 20px;
+	padding-left: 30px;
+	margin: 0px 10px 10px 20px;
+	font-weight: bold;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 10px 10px 50px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }

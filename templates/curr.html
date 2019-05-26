@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,9 +10,19 @@
 		<h1 class="heading">CurrEx</h1>
 	</header>
 	<div class="main">
-		
-		<form class="forme" action="http://localhost:2000/convert" method="POST">
+
+		<form class="forme" action="http://localhost:1999/convert" method="POST">
 			<ul>
+<<<<<<< HEAD
+				<li>
+					<p class="maintext">Amount:</p>
+					<input type="text" class="textview1" name="current" placeholder="amount">
+				</li>
+				<li>
+					<p class="maintext">Currency From:</p>
+					<input list="currency1"  type="text" class="textview2" name="fromm" placeholder="from">
+					<datalist id="currency1">
+=======
 				<li>	
 					<p>Amount:</p>
 					<input type="text" class="textview1" name="amount" placeholder="amount">
@@ -23,6 +32,7 @@
 					<form method="post">
 					<input list="currency"  type="text" class="textview2" name="fromm" placeholder="from">
 					<datalist id="currency">
+>>>>>>> ffd1b3bd56c2458b6d624059b1d51646b2427743
 						<option value="USD">United States Dollars</option>
 						<option value="INR">India Rupees</option>
 						<option value="EUR">Euro</option>
@@ -105,14 +115,20 @@
 						<option value="XPT">Platinum Ounces</option>
 
 					</datalist>
-				</form>
-
 				</li>
+<<<<<<< HEAD
+
+				<li>
+					<p class="maintext">Currency To:</p>
+					<input list="currency2" type="text" class="textview3" name="toc" placeholder="to">
+					<datalist id="currency2">
+=======
 				<li>
 					<p>Currency To:</p>
 					<form method="post">
 					<input list="currency" type="text" class="textview3" name="toc" placeholder="to">
 					<datalist id="currency">
+>>>>>>> ffd1b3bd56c2458b6d624059b1d51646b2427743
 						<option value="USD">United States Dollars</option>
 						<option value="INR">India Rupees</option>
 						<option value="EUR">Euro</option>
@@ -194,24 +210,27 @@
 						<option value="XPD">Palladium Ounces</option>
 						<option value="XPT">Platinum Ounces</option>
 					</datalist>
+<<<<<<< HEAD
+=======
 				</form>
+>>>>>>> ffd1b3bd56c2458b6d624059b1d51646b2427743
 				</li>
 				<li>
 					<p>Convert</p>
 					<p><input type = "submit" value = "submit" /></p>
 				</li>
-			</ul>	
+			</ul>
 		</form>
 
 
 	</div>
 	<footer class = "detailing">
-		
+
 	</footer>
 
 
 </body>
 <script type="text/javascript">
-	
+
 </script>
 </html>
