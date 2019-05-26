@@ -1,4 +1,3 @@
-
 header{
 	background-color: black;
 	width: 100%;
@@ -17,16 +16,16 @@ header{
 .main{
 	background-color: red;
 	height: 600px;
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxg03SlUQdnjMLl6tHWOBMdNLZQN4EirbOyLC1GN44wh67Q3e-2A);
+	background-image: url("https://si.wsj.net/public/resources/images/BN-XP616_3pjLu_OR_20180223170153.jpg?width=620&height=413");
 	background-size: cover;
 }
 
 .detailing{
-	background-color: yellow;
+	background-color: white;
 	height: 270px;
 }
 
-.textview1,.textview2,.textview3,.button{
+.textview1,.textview2,.textview3{
 	padding-top: 40px;
 	padding-left: 50px;
 	margin: 0px 50px 50px 50px;
@@ -35,14 +34,18 @@ header{
 	opacity: 1;
 }
 
-.button{
-	font-size: 50px;
+.conv{
+	font-size: 30px;
 	cursor: pointer;
 	border: none;
+	border-radius: 5px;
+	padding: 10px 10px;
+	margin: 10px 10px 10px 10px;
 }
 
-.button:hover{
-	background-color: green;
+.conv:hover{
+	background-color: black;
+	color: white;
 }
 
 .forme p{
@@ -59,7 +62,7 @@ header{
 }
 
 body{
-	background-color: blue;
+	background-color: grey;
 }
 
 .resl{
@@ -71,22 +74,23 @@ body{
 	margin: 0px 10px 10px 10px;
 }
 
-.tpage .button{
+.tpage button{
 	font-size: 30px;
 	padding: 10px 10px;
-	margin: 0px 10px 10px 10px;
+	margin: 10px 10px 10px 40px;
 	opacity: 1;
 	cursor: pointer;
+	border-radius: 10px
 }
 
-.tpage .button:hover{
-	background-color: green;
+.tpage button:hover{
+	background-color: black;
+	color: white;
 }
 
 .tpage p{
 	font-size: 40px;
-	padding: 10px 20px 10px 40px;
+	padding: 10px 20px 0px 40px;
 	color: white;
 	opacity: 1;
-	color: white;
 }
