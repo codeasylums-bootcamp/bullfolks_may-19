@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>CurrEx</title>
-	<link rel="stylesheet" type="text/css" href="/curr.css">
+	<link rel="stylesheet" type="text/css" href="/static/curr.css">
 </head>
 <body>
 	<header >
@@ -17,7 +17,13 @@
 			<br>
 			<br>
 			<p>Convert Again</p>
-            <a href="https://localhost:5000/">Go Back</button>
+			<button onclick="goBack()">Go Back</button>
+
+ 			   <script>
+					function goBack() {
+  						window.history.back();
+					}
+				</script>
 		</div>
 	</div>
 	<footer class = "detailing">
