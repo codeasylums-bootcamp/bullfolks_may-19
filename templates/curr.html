@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,31 +10,19 @@
 		<h1 class="heading">CurrEx</h1>
 	</header>
 	<div class="main">
-		
-		<form class="forme" action="http://localhost:2000/convert" method="POST">
+
+		<form class="forme" action="http://localhost:1999/convert" method="POST">
 			<ul>
-				<li>	
-					<p>Amount:</p>
-<<<<<<< HEAD
-					<input type="text" class="textview1" name="amount" placeholder="amount">
+				<li>
+					<p class="maintext">Amount:</p>
+					<input type="text" class="textview1" name="current" placeholder="amount">
 				</li>
 				<li>
-					<p>Currency From:</p>
-					<input type="text" class="textview2" name="fromm" placeholder="from">
-				</li>
-				<li>
-					<p>Currency To:</p>
-					<input type="text" class="textview3" name="toc" placeholder="to">
-=======
-					<input type="text" class="textview1" name="textview1" placeholder="amount">
-					
-				</li>
-				<li>
-					<p>Currency From:</p>
-					<form method="post">
-					<input list="currency"  type="text" class="textview2" name="textview2" placeholder="from">
-					<datalist id="currency">
+					<p class="maintext">Currency From:</p>
+					<input list="currency1"  type="text" class="textview2" name="fromm" placeholder="from">
+					<datalist id="currency1">
 						<option value="USD">United States Dollars</option>
+						<option value="INR">India Rupees</option>
 						<option value="EUR">Euro</option>
 						<option value="GBP">United Kingdom Pounds</option>
 						<option value="DZD">Algeria Dinars</option>
@@ -116,17 +103,14 @@
 						<option value="XPT">Platinum Ounces</option>
 
 					</datalist>
-				</form>
-
 				</li>
+
 				<li>
-					<p>Currency To:</p>
-					<form method="post">
-					<input list="currency" type="text" class="textview3" name="textview3" placeholder="to">
-
-					<datalist id="currency">
-
-					<option value="USD">United States Dollars</option>
+					<p class="maintext">Currency To:</p>
+					<input list="currency2" type="text" class="textview3" name="toc" placeholder="to">
+					<datalist id="currency2">
+						<option value="USD">United States Dollars</option>
+						<option value="INR">India Rupees</option>
 						<option value="EUR">Euro</option>
 						<option value="GBP">United Kingdom Pounds</option>
 						<option value="DZD">Algeria Dinars</option>
@@ -205,27 +189,24 @@
 						<option value="XAU">Gold Ounces</option>
 						<option value="XPD">Palladium Ounces</option>
 						<option value="XPT">Platinum Ounces</option>
-
 					</datalist>
-				</form>
->>>>>>> 97a0f594ce63376010579dadb97c362fa57735fe
 				</li>
 				<li>
-					<p>Press It</p>
+					<p>Convert</p>
 					<p><input type = "submit" value = "submit" /></p>
 				</li>
-			</ul>	
+			</ul>
 		</form>
 
 
 	</div>
 	<footer class = "detailing">
-		
+
 	</footer>
 
 
 </body>
 <script type="text/javascript">
-	
+
 </script>
 </html>

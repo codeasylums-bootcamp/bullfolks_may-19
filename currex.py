@@ -14,7 +14,7 @@ def main():
 @app.route("/convert", methods=['GET','POST'])
 def convert():
     if request.method == 'POST':
-        current = request.form['amount']
+        current = request.form['current']
         fromm = request.form['fromm']
         toc = request.form['toc']
         value = requests.get('https://www1.oanda.com/rates/api/v2/rates/spot.json?api_key=bI7O5G3ryIAHJN5E2ICXsLlb&base='+fromm+'&quote='+toc+'').json()
